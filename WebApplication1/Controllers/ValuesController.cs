@@ -19,7 +19,7 @@ namespace WebApplication1.Controllers
         public IEnumerable<string> Get()
         {
 
-            var connectionString = "DefaultEndpointsProtocol=https;AccountName=storagephdias;AccountKey=gcPE58aaZEzWt1CdUHjkxvxmfQcn1+QJtVRbpZF53TMKsVFHFC8Q0lheFXiK0QqpEwd7/ggeqEIEo/5NAhBWvw==;EndpointSuffix=core.windows.net";
+            var connectionString = "DefaultEndpointsProtocol=https;AccountName=aulapucramon;AccountKey=NEpVr5B2s7kWfBy+osHruQLpHfw+vsozTZZH/QiltLMo7HrbGiFDTz1haYhvf/JXXVuyJ6YFVdQIYOHyN+wYHw==;EndpointSuffix=core.windows.net";
             CloudStorageAccount cloudStorageAccount;
 
             if (!CloudStorageAccount.TryParse(connectionString, out cloudStorageAccount))
@@ -58,7 +58,7 @@ namespace WebApplication1.Controllers
         {
 
             //var connectionString = "DefaultEndpointsProtocol=https;AccountName=pablodias;AccountKey=mtbzioaGNvABxjOlnjOyFs82dmH0enTh3RGhGLRQF2vHb8e+iz3sm1T5dAfZcpjlPWZxq/SWRhlS3aXrbGnd4Q==;EndpointSuffix=core.windows.net";
-            var connectionString = "DefaultEndpointsProtocol=https;AccountName=storagephdias;AccountKey=gcPE58aaZEzWt1CdUHjkxvxmfQcn1+QJtVRbpZF53TMKsVFHFC8Q0lheFXiK0QqpEwd7/ggeqEIEo/5NAhBWvw==;EndpointSuffix=core.windows.net";
+            var connectionString = "DefaultEndpointsProtocol=https;AccountName=aulapucramon;AccountKey=NEpVr5B2s7kWfBy+osHruQLpHfw+vsozTZZH/QiltLMo7HrbGiFDTz1haYhvf/JXXVuyJ6YFVdQIYOHyN+wYHw==;EndpointSuffix=core.windows.net";
             CloudStorageAccount cloudStorageAccount;
 
             if (!CloudStorageAccount.TryParse(connectionString, out cloudStorageAccount))
